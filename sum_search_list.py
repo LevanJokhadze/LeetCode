@@ -1,7 +1,7 @@
 class Solution:
     def __init__(self):
         self.arr = list()
-    def search(self, arr, targ):
+    def search(self, arr: list[int], targ: int) -> list[int]:
         leng = len(arr)
         for keys in range(leng):
             for i in range(leng):
